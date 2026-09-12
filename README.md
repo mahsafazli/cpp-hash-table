@@ -83,6 +83,7 @@ Let:
 | Insert | O(L) | O(L) | O(L + N) |
 | Search | O(L) | O(L) | O(L + N) |
 | Delete | O(L) | O(L) | O(L + N) |
+
 The polynomial hash function requires O(L) time because every character of the key must be processed.
 
 With a controlled load factor, hash table operations require an expected constant number of probes. Including the cost of hashing the string, their expected overall complexity is O(L).
